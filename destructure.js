@@ -15,3 +15,6 @@
 // const [hero,sadNayok,naika] = person
 // console.log(naika);
 
+const { price } = { name: "phone", brand: "realme", price: 20000 }
+// const { brand } = device;
+console.log(price);
