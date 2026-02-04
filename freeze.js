@@ -6,5 +6,5 @@ const employee = {
 }
 Object.freeze(employee)
 employee.salary = employee.salary + 5000
-// delete employee.experience
+delete employee.experience
 console.log(employee);
