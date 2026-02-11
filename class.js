@@ -52,5 +52,7 @@ class Bird extends Animal {
     }
 }
 const dog1 = new Dog("simba", "persian", 1);
-dog1.eat()
+// dog1.eat()
+const cat1 = new Cat("ukie", "deshi", 1);
+cat1.eat()
 console.log(dog1);
